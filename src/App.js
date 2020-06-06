@@ -8,11 +8,8 @@ import "./styles/index.scss";
 function App() {
   return (
 <>
-
-
      <Switch>     
      <Route exact path="/" component={Navbar} />
-  
         <Route exact path="/resume" component={Resume} />
 </Switch>
 </>
