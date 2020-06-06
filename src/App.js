@@ -1,19 +1,17 @@
 import React from 'react';
-import "react-bootstrap"
-import Navbar from "./component/navbar.jsx";
-import {  Route, Switch } from "react-router-dom";
-import Resume from './component/Resume.jsx';
-import Error from './component/test';
+import "bootstrap"
+import Navbar from "./component/navbar.js";
+import {  Route } from "react-router-dom";
+import Resume from './component/Resume.js';
 import "./styles/index.scss";
 
 function App() {
   return (
 <>
-<Switch>
-     <Route exact path="/" component={Navbar} />
+
+     <Navbar />
         <Route exact path="/resume" component={Resume} />
-        <Route  exact path="/error" component={Error}/>  
-</Switch>
+
 </>
   );
 }

@@ -6,7 +6,8 @@ import Typewriter from 'typewriter-effect';
 
 export default class Background extends React.Component {
     componentDidMount() {
-        new WOW.WOW().init();
+        const wow = new WOW.WOW();
+        wow.init()
     }
 
     render() {
@@ -14,7 +15,8 @@ export default class Background extends React.Component {
             <div id="my-background" className="background">
                 <img src={gif} className="gif" alt=""></img>
 
-                <div className="top-container flex">  <Typewriter
+                <div className="top-container flex">  
+                <Typewriter
                     options={{
                         strings: ['Hello! I am Mary Leddy', 'I am a Full-Stack Developer'],
                         autoStart: true,
@@ -33,12 +35,14 @@ export default class Background extends React.Component {
                                 top: node.offsetTop,
                                 behavior: "smooth"
                             });
-                        }}>
+                
+                       }}>
+                            
                         View my work
 					</button>
                 </div>
             </div>
-        );
+        );    
     }
 }
 

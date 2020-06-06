@@ -40,36 +40,36 @@ export default class About extends React.Component {
 							this.props.tada
 						}>
 			<svg id="tagi" x="0px" y="0px" width="100%" height="400px" viewBox="0 0 920 324">
-    <text transform="matrix(1 0 0 1 497.4292 293.7129)" class="st33 st0">MONGO</text>
-    <text transform="matrix(1 0 0 1 727.8999 191.9316)" class="st33 st20">API</text>
-    <text id="XMLID_2_" transform="matrix(1 0 0 1 433.0854 82.7407)" class="st33 st8">NODE</text>
-    <text transform="matrix(1 0 0 1 188.187 144.3555)" class="st33 st17 st22">REACT</text>
-    <text transform="matrix(1 0 0 1 380.8301 145.1353)" class="st33 st29">J-QUERY</text>
-    <text transform="matrix(1 0 0 1 378.8799 54.6626)" class="st34 st28 st6">SASS</text>
-    <text transform="matrix(1 0 0 1 247.0718 191.1514)" class="st34 st28 st18">MOCHA</text>
-    <text transform="matrix(1 0 0 1 0 129.9268)" class="st34 st28 st30">BOOTSTRAP</text>
-    <text transform="matrix(1 0 0 1 250.9712 76.1118)" class="st34 st27 st14">INTUITIVE DESIGN</text>
-    <text transform="matrix(1 0 0 1 229.9131 169.5225)" class="st34 st27 st25">DEBUGING</text>
-    <text transform="matrix(1 0 0 1 472.4722 105.3691)" class="st34 st28 st27">ACCESSIBILE</text>
-    <text transform="matrix(1 0 0 1 735.7007 163.4639)" class="st34 st28 st1">RESTful API</text>
-    <text transform="matrix(1 0 0 1 128.9111 264.4697)" class="st32 st28 st26">DESIGN AND FUNCTIONALITY</text>
-    <text transform="matrix(1 0 0 1 191.3057 102.2393)" class="st32 st28 st24">PHOTOSHOP</text>
-    <text transform="matrix(1 0 0 1 318.4351 289.0342)" class="st5 st28 st1">TYPOGRAPHY</text>
-    <text transform="matrix(1 0 0 1 740.77 211.4307)" class="st5 st28 st21">DATABASE</text>
-    <text transform="matrix(1 0 0 1 683.0542 230.5381)" class="st5 st28 st19">VISUAL STUDIO</text>
-    <text transform="matrix(0.9244 0 0 1 632.7485 97.0288)" class="st5 st28 st16">E-COMMERCE</text>
-    <text transform="matrix(1 0 0 1 663.5552 139.2856)" class="st5 st28 st3">ANIMATIONS</text>
-    <text transform="matrix(1 0 0 1 251.3608 240.4502)" class="st34 st17 st31">MOBILE RESPONSIVE</text>
-    <text transform="matrix(1 0 0 1 217.0439 54.2744)" class="st5 st28 st11">FRONT END</text>
-    <text transform="matrix(1 0 0 1 119.9526 240.2871)" class="st5 st28 st13">MYSQL</text>
-    <text transform="matrix(1 0 0 1 444.0044 34.7744)" class="st5 st17 st4">HANDLEBARS</text>
-    <text transform="matrix(1 0 0 1 125.4019 129.147)" class="st5 st28 st15">CSS</text>
-    <text transform="matrix(1 0 0 1 350.8022 207.5303)" class="st17 st2">JAVASCRIPT</text>
-    <text transform="matrix(1 0 0 1 81.5249 212.6006)" class="st33 st8">CHAI</text>
-    <text transform="matrix(1 0 0 1 545.0063 316.7061)" class="st5 st28 st23">NOSQL</text>
-    <text transform="matrix(1 0 0 1 638.2075 66.7529)" class="st5 st28 st12">HTML 5</text>
-    <text transform="matrix(1 0 0 1 185.8467 282.4043)" class="st5 st28 st10">BACK END</text>
-    <text transform="matrix(1 0 0 1 34.1494 150.5947)" class="st5 st28 st7">AJAX</text>
+    <text transform="matrix(1 0 0 1 497.4292 293.7129)" className="st33 st0">MONGO</text>
+    <text transform="matrix(1 0 0 1 727.8999 191.9316)" className="st33 st20">API</text>
+    <text id="XMLID_2_" transform="matrix(1 0 0 1 433.0854 82.7407)" className="st33 st8">NODE</text>
+    <text transform="matrix(1 0 0 1 188.187 144.3555)" className="st33 st17 st22">REACT</text>
+    <text transform="matrix(1 0 0 1 380.8301 145.1353)" className="st33 st29">J-QUERY</text>
+    <text transform="matrix(1 0 0 1 378.8799 54.6626)" className="st34 st28 st6">SASS</text>
+    <text transform="matrix(1 0 0 1 247.0718 191.1514)" className="st34 st28 st18">MOCHA</text>
+    <text transform="matrix(1 0 0 1 0 129.9268)" className="st34 st28 st30">BOOTSTRAP</text>
+    <text transform="matrix(1 0 0 1 250.9712 76.1118)" className="st34 st27 st14">INTUITIVE DESIGN</text>
+    <text transform="matrix(1 0 0 1 229.9131 169.5225)" className="st34 st27 st25">DEBUGING</text>
+    <text transform="matrix(1 0 0 1 472.4722 105.3691)" className="st34 st28 st27">ACCESSIBILE</text>
+    <text transform="matrix(1 0 0 1 735.7007 163.4639)" className="st34 st28 st1">RESTful API</text>
+    <text transform="matrix(1 0 0 1 128.9111 264.4697)" className="st32 st28 st26">DESIGN AND FUNCTIONALITY</text>
+    <text transform="matrix(1 0 0 1 191.3057 102.2393)" className="st32 st28 st24">PHOTOSHOP</text>
+    <text transform="matrix(1 0 0 1 318.4351 289.0342)" className="st5 st28 st1">TYPOGRAPHY</text>
+    <text transform="matrix(1 0 0 1 740.77 211.4307)" className="st5 st28 st21">DATABASE</text>
+    <text transform="matrix(1 0 0 1 683.0542 230.5381)" className="st5 st28 st19">VISUAL STUDIO</text>
+    <text transform="matrix(0.9244 0 0 1 632.7485 97.0288)" className="st5 st28 st16">E-COMMERCE</text>
+    <text transform="matrix(1 0 0 1 663.5552 139.2856)" className="st5 st28 st3">ANIMATIONS</text>
+    <text transform="matrix(1 0 0 1 251.3608 240.4502)" className="st34 st17 st31">MOBILE RESPONSIVE</text>
+    <text transform="matrix(1 0 0 1 217.0439 54.2744)" className="st5 st28 st11">FRONT END</text>
+    <text transform="matrix(1 0 0 1 119.9526 240.2871)" className="st5 st28 st13">MYSQL</text>
+    <text transform="matrix(1 0 0 1 444.0044 34.7744)" className="st5 st17 st4">HANDLEBARS</text>
+    <text transform="matrix(1 0 0 1 125.4019 129.147)" className="st5 st28 st15">CSS</text>
+    <text transform="matrix(1 0 0 1 350.8022 207.5303)" className="st17 st2">JAVASCRIPT</text>
+    <text transform="matrix(1 0 0 1 81.5249 212.6006)" className="st33 st8">CHAI</text>
+    <text transform="matrix(1 0 0 1 545.0063 316.7061)" className="st5 st28 st23">NOSQL</text>
+    <text transform="matrix(1 0 0 1 638.2075 66.7529)" className="st5 st28 st12">HTML 5</text>
+    <text transform="matrix(1 0 0 1 185.8467 282.4043)" className="st5 st28 st10">BACK END</text>
+    <text transform="matrix(1 0 0 1 34.1494 150.5947)" className="st5 st28 st7">AJAX</text>
   </svg>
 					</div>
 				</div>
