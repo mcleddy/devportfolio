@@ -4,6 +4,7 @@ import Navbar from "./component/navbar.js";
 import {  Route, Switch } from "react-router-dom";
 import Resume from './component/Resume.js';
 import "./styles/index.scss";
+import   registerServiceWorker from "./serviceWorker";
 
 function App() {
   return (
