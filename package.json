@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "@types/react-router-dom": "^5.1.5",
     "animate.css": "^3.7.0",
+    "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "express": "^4.17.1",
     "heroku": "^7.41.1",
