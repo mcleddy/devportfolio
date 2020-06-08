@@ -1,14 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import gif from "../img/gif.gif";
-import WOW from "wowjs";
+
 import Typewriter from 'typewriter-effect';
 
 export default class Background extends React.Component {
-    componentDidMount() {
-        const wow = new WOW.WOW();
-        wow.init()
-    }
+
 
     render() {
         return (
@@ -23,10 +20,10 @@ export default class Background extends React.Component {
                         loop: true,
                     }}
                 />
-                    {/* offset can be cahnged in node modules wowjs default file */}
+
                     <button
                         className={"work-button " + this.props.bounceIn}
-                        data-wow-offset="0"
+          
                         onClick={() => {
                             let node = document.getElementById(
                                 this.props.aboutRef.current.props.id
