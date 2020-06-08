@@ -112,6 +112,7 @@ export default class Projects extends React.Component {
 									<div>
 										<button
 											id="agua-button"
+											href="https://mcleddy.github.io/artsite/"
 											className="project-button"
 										>
 											Deployed Site

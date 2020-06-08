@@ -6,7 +6,6 @@ import "./styles/index.scss";
 function App(){
   return(
 <div>
-
 <Navbar/>
 </div>
   )
