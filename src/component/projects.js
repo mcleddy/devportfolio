@@ -138,6 +138,25 @@ export default class Projects extends React.Component {
 										</a>
 									</div>
 								</div>
+							</div>						
+								<div
+									className={
+										"LeddysBakeryPic col-12 col-sm-12 col-md-6 " +
+										this.props.fadeIn
+									}>
+									<div className="overlay">
+										<div className="text">
+											<h2>Leddy's Bakery: Business Website</h2>
+										</div>
+										<div>
+											<a
+												id="todo-button"
+												href="https://evening-coast-76479.herokuapp.com/"
+												className="project-button">
+												Deployed Site
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

@@ -475,7 +475,14 @@ background-image: url("../img/motelPic.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.LeddysBakeryPic{
+  background-image: url("../img/LeddysBakerPic.png");
+  height: 400px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}
 .mytext {
     font-size: 1.2rem;
 }
