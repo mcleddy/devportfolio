@@ -12,34 +12,37 @@ export default class Background extends React.Component {
             <div id="my-background" className="background">
                 <img src={gif} className="gif" alt=""></img>
 
-                <div className="top-container flex">  
-                <Typewriter
-                    options={{
-                        strings: ['Hello! I am Mary Leddy', 'I am a Full-Stack Developer'],
-                        autoStart: true,
-                        loop: true,
-                    }}
-                />
+                <div className="top-container">
+                    <div id="mediaTitle">
+                        <h5 >Mary Leddy</h5>
+                        <h5>Full-Stack Web Developer</h5>
+                    </div>
+                    <div id="typewriterSection">
+                        <Typewriter
+                            options={{
+                                strings: ['Hello! I am Mary Leddy', 'I am a Full-Stack Developer'],
+                                autoStart: true,
+                                loop: true,
+                            }}
+                        />
 
-                    <button
-                        className={"work-button " + this.props.bounceIn}
-          
-                        onClick={() => {
-                            let node = document.getElementById(
-                                this.props.aboutRef.current.props.id
-                            );
-                            window.scrollTo({
-                                top: node.offsetTop,
-                                behavior: "smooth"
-                            });
-                
-                       }}>
-                            
-                        View my work
+                        <button
+                            className={"work-button " + this.props.bounceIn}
+                            onClick={() => {
+                                let node = document.getElementById(
+                                    this.props.aboutRef.current.props.id
+                                );
+                                window.scrollTo({
+                                    top: node.offsetTop,
+                                    behavior: "smooth"
+                                });
+                            }}>
+                            View my work
 					</button>
+                    </div>
                 </div>
             </div>
-        );    
+        );
     }
 }
 

@@ -28,22 +28,48 @@ body{
     color: #FFF;
     top: 50%;
     left: 50%;
-    font-size: 50px;
     color: white;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
-    font-size: 50px;
-    font-weight: 300;
     margin: 0 auto;
     width: 80%;
     padding: 20px;
-    letter-spacing: 10px
+    letter-spacing: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+#mediaTitle{
+  display: none;  
+  margin-top: -500px;
+}
+@media screen and (max-width: 600px) {
+  #mediaTitle {
+    display: block; 
+  }
+}
+
 .Typewriter{
     color:#00AE9C;
-    position: relative;
-    margin-bottom: 100px;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lato', cursive;
+    font-size: 50px; 
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: title 3s steps(70, end); 
+    margin-bottom: 40px;
 }
+@media screen and (max-width: 600px) {
+  .Typewriter {
+    display: none;
+  }
+}
+
 .work-button {
     margin-top: 5rem;
     padding: .2rem 2rem;
@@ -52,10 +78,14 @@ body{
     border-radius: 2rem;
     border: 1px #122444 solid;
     outline: none;
-
     font-size: 1.2rem;
     font-weight: 600;
-  position: relative
+    width: 250px;
+}
+@media screen and (max-width: 600px) {
+  .work-button{
+    display: none;
+  }
 }
 .work-button:hover {
     background-color:  #F67944;
@@ -82,10 +112,16 @@ body{
 #navBtn1{
     color: #FEEA06;
 }
+@media screen and (max-width: 600px) {
+  #navBtn1 {
+    display: none;
+  }
+}
 #navBtn1:hover{
     text-decoration: underline;
     font-weight: bold;
 }
+
 #navBtn2{
     color: #F67944;
 }
@@ -112,9 +148,6 @@ body{
 #about{
     color: #F67944;
     text-decoration: underline;
-}
-#aboutBubbles{
-margin-top: 4%;
 }
 
 .aboutIcon{
@@ -334,10 +367,15 @@ fill: #00AE9C;
   width: 20%;
 }
 
+#submit{
+  float: right;
+}
+
 #submitBtn{
   background-color: #009CD6;
   border-radius: 2rem!important;
 }
+
 #submitBtn:hover{
   background-color: #009CD6;
 border: solid 2px #009CD6;
